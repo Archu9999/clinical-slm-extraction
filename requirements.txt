@@ -1,0 +1,12 @@
+# data, scoring, Claude baseline
+anthropic
+pytest
+requests
+
+# training + local inference
+torch
+transformers
+datasets
+peft
+trl
+accelerate

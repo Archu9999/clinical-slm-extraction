@@ -1,0 +1,8 @@
+{
+  "wall_time_s": 30.32,
+  "n": 30,
+  "gpu_usd_per_hour": null,
+  "backend": "hf",
+  "base": "Qwen/Qwen2.5-0.5B-Instruct",
+  "adapter": "checkpoints/smoke"
+}
