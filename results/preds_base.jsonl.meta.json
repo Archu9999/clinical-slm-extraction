@@ -1,0 +1,8 @@
+{
+  "wall_time_s": 262.04,
+  "n": 300,
+  "gpu_usd_per_hour": 0.35,
+  "backend": "hf",
+  "base": "Qwen/Qwen2.5-1.5B-Instruct",
+  "adapter": null
+}

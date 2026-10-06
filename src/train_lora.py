@@ -45,7 +45,7 @@ def main():
     args = ap.parse_args()
 
     if torch.cuda.is_available():
-        dtype = torch.bfloat16 if torch.cuda.is_bf16_supported() else torch.float16
+        dtype = torch.bfloat16 if torch.cuda.get_device_capability()[0] >= 8 else torch.float16
     else:
         dtype = torch.float32  # MPS / CPU: fp32 is the stable choice
     print(f"device={'cuda' if torch.cuda.is_available() else 'mps' if torch.backends.mps.is_available() else 'cpu'} dtype={dtype}")

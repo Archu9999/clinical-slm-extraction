@@ -5,3 +5,6 @@ results/*
 __pycache__/
 .pytest_cache/
 .DS_Store
+!results/preds_*
+results.zip
+results (*).zip
